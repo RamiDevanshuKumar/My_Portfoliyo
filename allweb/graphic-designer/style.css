@@ -17,8 +17,10 @@
 }
 
 #header * {
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.5s;
 }
+
+
 
 #header {
     width: 100%;
@@ -33,7 +35,7 @@
 
 #header .a2 h1 a {
     font-family: "Poppins", sans-serif;
-    font-size: 48px;
+    font-size: 1rem;
     margin: 0px;
     padding: 0px;
     font-weight: 700;
@@ -87,9 +89,119 @@
 .nav-link:hover {
     color: #ffffff !important;
 }
-.nav-link{
+
+.nav-link {
     cursor: pointer;
+    font-size: 1rem;
 }
+
+#header .About-a2 h1 a {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.phone-nav {
+    background: #272727;
+    width: 33%;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    display: none;
+    justify-content: start;
+    z-index: 999;
+    right: 0;
+    color: white;
+    overflow-x: hidden;
+    transform: translateX(100%);
+}
+
+.phone-nav ul li:first-child{
+margin: -10px;
+font-size: 20px;
+}
+
+.phone-nav ul li{
+    list-style: none;
+    text-align: left;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.phone-nav ul li a{
+    margin: 0;
+    padding: 0;
+
+}
+
+.phone-nav ul li:first-child{
+    padding-top: 20px;
+}
+
+.phone-manu-icon{
+    color: white;
+    display: none;
+}
+
+
+@media only screen and (max-width:992px){
+.phone-nav{
+    display: flex;
+}   
+
+.phone-manu-icon{
+    display: flex;
+}
+
+.container{
+    width: 80% !important;
+}
+
+}
+
+@media only screen and (max-width:572px){
+    .a1 .nav-link {
+        font-size: 15px !important;
+    }
+       #header .a2 h1 a,
+    #header .About-a2 h1 a {
+        font-size: 1.5rem  !important;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .a1 .nav-link {
+        font-size: 11px !important;
+    }
+
+    #header .a2 h1 a,
+    #header .About-a2 h1 a {
+        font-size: 1.5rem  !important;
+    }
+
+    .container{
+        width: 80% !important;
+    }
+    
+
+}
+
+@media only screen and (max-width:426px){
+   #header .a2 h1 a,
+    #header .About-a2 h1 a {
+        font-size: 1rem  !important;
+    }  
+}
+
+
+
+
+
 .navbar {
     padding: 0;
     margin-top: 35px;
@@ -127,6 +239,31 @@
 .active::before {
     width: 25px !important;
 }
+.active_phone{
+display: flex !important;
+margin-left: -30px !important;
+gap: 10px !important;
+justify-content: center;
+align-items: center;
+}
+
+.activebox{
+width: 20px;
+height: 20px;
+background-color: #18d26e;
+border-radius: 100%;
+animation: activepopup 2s infinite ;
+}
+
+@keyframes activepopup {
+    0%,100%{
+        transform: scale(0.6);
+    }
+    50%{
+        
+        transform: scale(0.3);
+    }
+}
 
 .About-a1 ul li .active::before {
     width: 25px !important;
@@ -152,14 +289,6 @@ nav {
 }
 
 
-#header .About-a2 h1 a {
-    font-family: "Poppins", sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1;
-    color: white;
-    text-decoration: none;
-}
 
 
 #header.header-top {
@@ -173,6 +302,10 @@ nav {
     align-items: center;
 }
 
+
+
+
+
 section .container {
     background: rgba(0, 0, 0, 0.9);
     padding: 30px;
@@ -184,6 +317,17 @@ section .container {
     /* height: 100vh; */
     display: flex;
     background-attachment: fixed !important;
+}
+
+footer{
+width: 100%;
+height: 10vh;
+background: #222222;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 0.5rem;
 }
 
 
@@ -1014,13 +1158,15 @@ body {
 
 
 
-.info-box input , .info-box textarea{
+.info-box input,
+.info-box textarea {
     border-radius: 0px;
     background: #ffffff14;
     border: none;
 }
 
-.info-box input::placeholder, .info-box textarea::placeholder{
+.info-box input::placeholder,
+.info-box textarea::placeholder {
     color: #FFFfff50;
 }
 
@@ -1034,7 +1180,7 @@ body {
     border-radius: 4px;
 }
 
-.info-box button:hover{
-    background: 
-    #15b55f;
+.info-box button:hover {
+    background:
+        #15b55f;
 }

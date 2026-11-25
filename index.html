@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Devanshu | Web Developer</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+  <!-- ── Navbar ── -->
+  <nav id="navbar">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="#hero" class="nav-brand">&lt;Devanshu/&gt;</a>
+      <div class="d-none d-md-flex align-items-center gap-2">
+        <a href="#about" class="nav-link-custom">About</a>
+        <a href="#skills" class="nav-link-custom">Skills</a>
+        <a href="#projects" class="nav-link-custom">Projects</a>
+        <a href="#contact" class="nav-link-custom">Contact</a>
+        <a href="#contact" class="nav-link-custom nav-hire-btn ms-3">Hire Me</a>
+      </div>
+      <button class="btn d-md-none p-0" style="color:var(--text)" id="phone-manu-icon">
+        <i class="fas fa-bars fa-lg"></i>
+
+      </button>
+    </div>
+
+    <!-- onclick="toggleMenu()" -->
+
+
+
+    <!-- Mobile menu -->
+    <div class="main_mobile_manu manu_off" id="main_mobile_manu">
+
+      <div id="mobileMenu" style="display: flex;  position: relative; " class="mt-3 pb-3 pt-3 flex-column gap-2">
+        <a href="#about" class="nav-link-custom" onclick="toggleMenu()">About</a>
+        <a href="#skills" class="nav-link-custom" onclick="toggleMenu()">Skills</a>
+        <a href="#projects" class="nav-link-custom" onclick="toggleMenu()">Projects</a>
+        <a href="#contact" class="nav-link-custom" onclick="toggleMenu()">Contact</a>
+      </div>
+
+    </div>
+
+  </nav>
+
+
+
+
+
+  <!-- ── Hero ── -->
+
+  <!-- ----------------------top btn---------------- -->
+
+  <a class="top-box" href="#"><i class="fa-solid fa-angles-up"></i></a>
+
+  <section id="hero">
+    <div class="hero-glow glow-1"></div>
+    <div class="hero-glow glow-2"></div>
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <div class="hero-eyebrow">
+            <span></span> Available for freelance work
+          </div>
+          <h1 class="hero-name">
+            Hi, I'm<br>
+            <span class="grad-text">Devanshu Rami</span>
+          </h1>
+          <!-- <p class="hero-role">
+            <span id="typed-text"></span><span class="cursor"></span>
+          </p> -->
+          <p class="hero-desc">
+            I craft fast, accessible, and visually refined web experiences — turning ideas into products people love to
+            use.
+          </p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="allweb.html" class="btn-primary-custom">
+              View My Projects <i class="fas fa-arrow-right"></i>
+            </a>
+            <!-- <a href="#contact" class="btn-outline-custom">
+              Let's Talk <i class="fas fa-paper-plane"></i>
+            </a> -->
+          </div>
+
+
+
+
+
+
+
+        </div>
+        <div class="col-lg-6 fade-up">
+          <div class="hero-code-card">
+            <div class="code-header">
+              <div class="dot dot-r"></div>
+              <div class="dot dot-y"></div>
+              <div class="dot dot-g"></div>
+              <span class="code-filename">developer.js</span>
+            </div>
+            <div class="code-body">
+              <div><span class="c-purple">const</span> <span class="c-blue">developer</span> <span
+                  class="c-cyan">=</span> {</div>
+              <div>&nbsp;&nbsp;<span class="c-orange">name</span>: <span class="c-green">"Devanshu Rami"</span>,</div>
+              <div>&nbsp;&nbsp;<span class="c-orange">role</span>: <span class="c-green">"Web Developer"</span>,</div>
+              <div>&nbsp;&nbsp;<span class="c-orange">skills</span>: [</div>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-green">"HTML"</span>, <span class="c-green">"CSS"</span>,
+              </div>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-green">"JavaScript"</span>,</div>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-green">"figma to html"</span>, <span
+                  class="c-green">"Bootstrap"</span></div>
+              <div>&nbsp;&nbsp;],</div>
+              <!-- <div>&nbsp;&nbsp;<span class="c-orange">passion</span>: <span class="c-green">"Building great UX"</span>,
+              </div> -->
+              <div>&nbsp;&nbsp;<span class="c-orange">available</span>: <span class="c-purple">true</span></div>
+              <div>};</div>
+              <div class="mt-2 c-muted">// Let's build something amazing!</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ── About ── -->
+  <section id="about" class="section-pad">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5 text-center fade-up">
+          <div class="about-img-wrap d-inline-block">
+            <img src="img/Neon Cyberpunk Developer Workspace.png" alt="">
+            <!-- <div class="about-img-badge">
+              <div style="font-size:1.5rem">🚀</div>
+              <div>Open to Work</div>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-lg-7 fade-up">
+          <span class="section-eyebrow">// about me</span>
+          <h2 class="section-title">Passionate Developer,<br>Problem Solver</h2>
+          <div class="divider"></div>
+          <p style="color:var(--muted); margin-bottom:20px;">
+            I'm a web developer with 3+ years of experience building modern, responsive websites and web apps.
+            I love clean code, great design, and creating experiences that are both functional and beautiful.
+          </p>
+          <p style="color:var(--muted); margin-bottom:32px;">
+            When I'm not coding, I'm exploring new technologies, contributing to open-source, or mentoring
+            junior developers. I believe every project deserves thoughtful craftsmanship.
+          </p>
+          <div class="mb-4">
+            <span class="about-tag"><i class="fas fa-map-marker-alt"></i> Ahmedabad, India</span>
+            <span class="about-tag"><i class="fas fa-briefcase"></i> Freelancer</span>
+            <span class="about-tag"><i class="fas fa-graduation-cap"></i> BCA</span>
+            <span class="about-tag"><i class="fas fa-language"></i> Hindi & Gujarat</span>
+          </div>
+          <a href="cv/Rami Devanshu Resume.pdf" download="" class="btn-primary-custom" style="display:inline-flex">
+            Download CV <i class="fas fa-download"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ── Skills ── -->
+  <section id="skills" class="section-pad">
+    <div class="container">
+      <div class="text-center mb-5 fade-up">
+        <span class="section-eyebrow">// my skills</span>
+        <h2 class="section-title">Technologies I Work With</h2>
+        <div class="divider mx-auto"></div>
+        <p class="section-sub mx-auto">Tools and languages I use to bring ideas to life.</p>
+      </div>
+      <div class="row g-4" id="skills-grid">
+        <!-- Skills populated by JS -->
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ── Projects ── -->
+  <section id="projects" class="section-pad">
+    <div class="container">
+      <div class="text-center mb-5 fade-up">
+        <span class="section-eyebrow">// my projects</span>
+        <h2 class="section-title">Work</h2>
+        <!-- <h2 class="section-title">Featured Work</h2> -->
+        <div class="divider mx-auto"></div>
+        <p class="section-sub mx-auto">A selection of projects I've built with care and attention to detail.</p>
+      </div>
+      <div class="row g-4" id="projects-grid">
+        <div class="text-center">
+          <a href="allweb.html" class="btn-primary-custom">
+            View My Projects <i class="fas fa-arrow-right"></i>
+          </a>
+          <!-- <a href="#contact" class="btn-outline-custom">
+              Let's Talk <i class="fas fa-paper-plane"></i>
+            </a> -->
+        </div>
+      </div>
+      <!-- Projects populated by JS -->
+    </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- ── Contact ── -->
+  <section id="contact" class="section-pad">
+    <div class="container">
+      <div class="text-center mb-5 fade-up">
+        <span class="section-eyebrow">// contact</span>
+        <h2 class="section-title">Let's Work Together</h2>
+        <div class="divider mx-auto"></div>
+        <p class="section-sub mx-auto">Have a project in mind? I'd love to hear about it.</p>
+      </div>
+      <div class="row g-5 fade-up d-flex justify-content-center">
+        <!-- <div class="col-lg-5"> -->
+        <div class="col-lg-5 ">
+          <div class="contact-card h-100">
+            <h5 style="font-weight:600; margin-bottom:8px">Get In Touch</h5>
+            <p style="color:var(--muted); font-size:.9rem; margin-bottom:32px;">
+              I'm currently available for freelance projects and full-time roles. Let's talk!
+            </p>
+            <div class="contact-info-item">
+              <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <div class="ci-label">Email</div>
+                <div class="ci-value">ramidevanshu4@gmail.com</div>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="ci-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <div class="ci-label">Phone</div>
+                <div class="ci-value">+91 91041 03908</div>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <div class="ci-label">Location</div>
+                <div class="ci-value">Ahmedabad, Gujarat, India</div>
+              </div>
+            </div>
+            <div class="social-row">
+              <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+              <a href="https://linkedin.com/in/devanshu-rami-013980450" target="_blank" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-lg-7">
+          <div class="contact-card">
+            <div class="row g-4">
+              <div class="col-md-6">
+                <label class="form-label-custom">Your Name</label>
+                <input type="text" class="form-control-custom" placeholder="John Doe" id="inp-name" />
+              </div>
+              <div class="col-md-6">
+                <label class="form-label-custom">Email Address</label>
+                <input type="email" class="form-control-custom" placeholder="john@example.com" id="inp-email" />
+              </div>
+              <div class="col-12">
+                <label class="form-label-custom">Subject</label>
+                <input type="text" class="form-control-custom" placeholder="Project Discussion" id="inp-subject" />
+              </div>
+              <div class="col-12">
+                <label class="form-label-custom">Message</label>
+                <textarea class="form-control-custom" rows="5" placeholder="Tell me about your project..." id="inp-msg"
+                  style="resize:vertical"></textarea>
+              </div>
+              <div class="col-12">
+                <button class="btn-primary-custom w-100 justify-content-center" id="send-btn" onclick="sendMessage()">
+                  Send Message <i class="fas fa-paper-plane"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="container">
+      <p>Designed & Built with <span>♥</span> by <span>Devanshu Rami</span> &nbsp;·&nbsp; © 2025</p>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div id="toast"><span class="ti"><i class="fas fa-check-circle"></i></span> Message sent successfully!</div>
+
+
+
+
+  <!-- <div id="tempbox" class="temp1"></div> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

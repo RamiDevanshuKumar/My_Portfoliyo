@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+/* .hero-btn{
+
+} */
+
+
+.hero-img {
+    width: 747px;
+    height: 700px;
+    background-image: url(img/2b30ebd6ddcf9e9299eeec6b61a473b8.png);
+    background-size: cover;
+border-left: 50px solid #4335DE;
+border-top: 50px solid #4335DE;
+}
+
+
+.eilipse {
+    width: 30cm;
+    height: 30cm;
+    border-radius: 100%;
+    background: radial-gradient(50% 50% at 50.01% 50.01%, #FFFFFF 0%, #E7EFFA 100%);
+    position: relative;
+    left: -30vw;
+    top: -110vh;
+    z-index: -1;
+}
+
+.hero h5{
+    font-size: 60px;
+    color: #02033B; 
+    font-weight: 800;
+}
+
+.hero p{
+    color: #02033B; 
+    line-height: 25px;
+}
+
+
+.Loved {
+    background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%);
+
+}
+
+.hero-btn-1{
+margin-right: 10px;
+}
+
+.hero-btn-2{
+margin-left: 10px;
+}
+
+.hero-btn-1 a{
+    text-decoration: none;
+    border-radius: 50px;
+    border: 4px solid #FFC247;
+    background: #FFC247;
+    font-size: 19px;
+    font-weight: 800;
+    font-family: "Noto Sans", sans-serif;
+    color: #02033B;
+    transition: ease-in-out 0.5s;
+
+}
+
+.hero-btn-1 a:hover{
+    color: #02033B;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 4px solid #02033B;
+    font-size: 19px;
+    font-weight: 800;
+    font-family: "Noto Sans", sans-serif;
+    background: transparent;
+}
+
+.hero-btn-1 a span{
+    margin-left: 10px;
+}
+
+.hero-btn-2 a{
+    color: #02033B;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 4px solid #02033B;
+    font-size: 19px;
+    font-weight: 800;
+    font-family: "Noto Sans", sans-serif;
+    transition: ease-in-out 0.5s;
+}
+
+.hero-btn-2 a:hover{
+ text-decoration: none;
+    border-radius: 50px;
+    border: 4px solid #FFC247;
+    background: #FFC247;
+    font-size: 19px;
+    font-weight: 800;
+    font-family: "Noto Sans", sans-serif;
+    color: #02033B;
+}
+
+.Loved-top p{
+    color: #02033B;
+font-weight: 700;
+font-size: 36px;
+line-height: 45px;
+}
+
+
+.At-Certo img{
+    border-top: 10px solid #FFC247 ;
+    border-right: 20px solid #FFC247;
+    border-bottom: 10px solid #FFC247;
+}
+
+
+.Get-your h3{
+    font-size: 36px ;
+    line-height: 45px;
+    font-weight: 800;
+    color: #02033B;
+}
+
+.Get-your{
+    background: linear-gradient(180deg, #F3F8FF 0%, #E7EFFA 100%);
+    text-align: center;
+}
+
+.get-card{
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.get-card p{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.get-card h4{
+font-weight: 800;
+font-size: 19px;
+line-height: 25px;
+}
+
+
+.get-card:hover{
+box-shadow: 0 0 35px;
+padding: 10px;
+border-radius: 20px;
+}
+
+
+.Read-our-story-btn1 a:hover{
+
+    border: 3px solid #02033B !important;
+    background: none !important;
+
+}
+.Read-our-story-btn2 a:hover{
+
+    border: 3px solid #4335DE !important;
+    background: #4335DE !important;
+    color:white !important;
+
+}
+
+
+.Is-someone {
+    color: #ffffff;
+    background: linear-gradient(180deg, #2925CC 0%, #4B48E5 100%);
+}
+
+
+.Is-someone-btn1 a:hover{
+    border:4px solid #ffffff !important;
+    color: #ffffff !important;
+}
+
+.Is-someone-btn2 a{
+border:4px solid #ffffff !important;
+color: #ffffff !important;
+}
+.Is-someone-btn2 a:hover{
+    border: 4px solid #FFC247 !important;
+    color: #02033B !important;
+}
+
+
+.latest-img1{
+    position: relative;
+}
+
+.latest-img2{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+
+.latest-img2 h4{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 800;
+    color: #02033B;
+    padding: 10px 20px;
+    background: #ffffff;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    transition: linear 0.3s;
+}
+
+.latest-img2 h4:hover{
+    border: 2px solid #FFC247;
+    background-color: #FFC247;
+    color: #2925CC;
+}
+
+.Latest-insights{
+    background: #F3F8FF;
+
+}
+
+
+.Latest-insights .card:hover {
+    box-shadow: 0 0 34px !important;
+}
+
+footer{
+    background-color: #02033B;
+}
+
+footer h3{
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 800;
+    color: white;
+}
+
+footer ul li{
+    list-style: none;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 25px;
+    color: #FFC247;
+    margin: 30px 0;
+}
+
+
+footer ul{
+    padding: 0px !important;
+    margin-top: 35px;
+}
+
+
+.box1{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+.footar-p{
+    width: 44vw;
+    color: white;
+}

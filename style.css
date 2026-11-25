@@ -884,6 +884,9 @@ footer span {
     .hero-stats {
         gap: 24px;
     }
+    .container{
+        width: 80%;
+    }
 
     .contact-card {
         padding: 28px 20px;

@@ -895,8 +895,8 @@ footer span {
         font-size: .8rem;
     }
     .top-box {
-    right: 2rem;
-    bottom: 2rem;
+    right: 2rem !important;
+    bottom: 2rem !important;
     }
 
 }

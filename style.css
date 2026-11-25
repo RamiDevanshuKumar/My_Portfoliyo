@@ -891,6 +891,13 @@ footer span {
     .contact-card {
         padding: 28px 20px;
     }
+     .ci-value{
+        font-size: .8rem;
+    }
+    .top-box {
+    right: 2rem;
+    bottom: 2rem;
+    }
 
 }
 

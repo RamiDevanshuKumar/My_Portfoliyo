@@ -164,13 +164,25 @@ font-size: 20px;
 
 }
 
-@media only screen and (max-width:572px){
+@media only screen and (max-width:572px) {
     .a1 .nav-link {
         font-size: 15px !important;
     }
-       #header .a2 h1 a,
+
+    #header .a2 h1 a,
     #header .About-a2 h1 a {
-        font-size: 1.5rem  !important;
+        font-size: 1.5rem !important;
+    }
+
+    .phone-nav {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width:463px) {
+
+    .a1 .nav-link {
+        font-size: 13px !important;
     }
 }
 
@@ -181,23 +193,58 @@ font-size: 20px;
 
     #header .a2 h1 a,
     #header .About-a2 h1 a {
-        font-size: 1.5rem  !important;
+        font-size: 1.5rem !important;
     }
 
-    .container{
+    .container {
         width: 80% !important;
     }
-    
 
+    .phone-nav {
+        width: 50%;
+    }
+
+    .phone-nav ul li {
+
+        font-size: 13px;
+    }
 }
 
-@media only screen and (max-width:426px){
-   #header .a2 h1 a,
+
+
+@media only screen and (max-width:426px) {
+
+    #header .a2 h1 a,
     #header .About-a2 h1 a {
-        font-size: 1rem  !important;
-    }  
+        font-size: 1rem !important;
+    }
 }
 
+@media only screen and (max-width:378px) {
+    .a1 .nav-link {
+        font-size: 10px !important;
+    }
+}
+
+@media only screen and (max-width:356px) {
+    .a1 .nav-link {
+        font-size: 9px !important;
+    }
+    
+    #header h2 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:319px) {
+    .a1 .nav-link {
+        font-size: 8px !important;
+    }
+
+    #header h2 {
+        font-size: 15px;
+    }
+}
 
 
 
